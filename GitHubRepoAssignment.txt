@@ -1,0 +1,33 @@
+MacBook-Air-de-FLAVIO:~ fmrocha$ mkdir GitHubRepoAssignment
+MacBook-Air-de-FLAVIO:~ fmrocha$ cd GitHubRepoAssignment
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git init
+Initialized empty Git repository in /Users/fmrocha/GitHubRepoAssignment/.git/
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ touch README.md
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ vi README.md
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git add .
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git commit -m "First commit adding README.md"
+[master (root-commit) e9b050a] First commit adding README.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git remote add origin https://github.com/flavio0567/GitHubRepoAssignment.git
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/flavio0567/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+MacBook-Air-de-FLAVIO:GitHubRepoAssignment fmrocha$ 
